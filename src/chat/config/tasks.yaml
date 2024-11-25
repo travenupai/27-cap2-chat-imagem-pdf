@@ -1,0 +1,10 @@
+generate_pdf_task:
+  description: >
+    Gere um arquivo PDF com base no título, descrição e caminho de uma imagem fornecidos.
+    Certifique-se de que o título e a descrição sejam exibidos de forma clara, seguidos pela imagem.
+    Você encontra o caminho para essa imagem em 'inputs/imagem_teste.png'. ou seja, use o caminho 'inputs/imagem_teste.png'.
+    Salve o PDF no caminho especificado.
+  expected_output: >
+    O PDF deve incluir o título no topo, o texto descritivo logo abaixo, seguido pela imagem centralizada.
+  agent: pdf_creator_agent
+
